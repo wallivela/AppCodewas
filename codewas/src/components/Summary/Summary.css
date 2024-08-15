@@ -1,0 +1,35 @@
+.summary {
+  padding: 20px;
+}
+
+.summary h2 {
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.final-total {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Responsividad para mejorar en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .summary-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .summary-item span {
+    margin-bottom: 5px;
+  }
+
+  .final-total {
+    font-size: 1.5em;
+  }
+}

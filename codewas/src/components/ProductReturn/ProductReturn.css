@@ -1,0 +1,81 @@
+/* ProductReturn.css */
+
+.product-return {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .product-return h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-return input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-return button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .product-return button:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-return table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-return table th,
+  .product-return table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .product-return table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .product-return table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-return table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .product-return input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 0;
+  }
+  /* ProductReturn.css */
+.delete-button {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    opacity: 0.8;
+  }
+  

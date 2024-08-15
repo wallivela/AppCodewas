@@ -1,0 +1,47 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# React specific
+.cache/
+.env
+
+# Optional: if using TypeScript
+*.tsbuildinfo
+
+# Optional: if using ESLint
+.eslintcache
+
+# Vite specific (since I see vite.config.js in your project)
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
